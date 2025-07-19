@@ -1,0 +1,38 @@
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #1e2a38, #0b3d91);
+  color: #fff;
+  text-align: center;
+}
+
+.home-content {
+  max-width: 600px;
+}
+
+.home-content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.home-content p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.home-content button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #ff9900;
+  border: none;
+  border-radius: 5px;
+  color: #1e2a38;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.home-content button:hover {
+  background-color: #ffa733;
+}
