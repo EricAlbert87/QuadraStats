@@ -6,7 +6,7 @@ const golfScraper = require('./scrapers/golfScraper');
 const tennisScraper = require('./scrapers/tennisScraper');
 
 const app = express();
-app.use(cors());
+app.use(cors({ origin: '*' }));
 
 app.get('/api/nfl', async (req, res) => {
   try {
